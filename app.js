@@ -11,7 +11,7 @@ function greetVisitor() {
 // Return the total price of the visitor's orders.
 function orderTotal(orders) {
   let total = 0;
-  for (let i = 0; i <= orders.length; i++) {
+  for (let i = 0; i < orders.length; i++) {
     total += orders[i].price * orders[i].quantity;
   }
   return total;

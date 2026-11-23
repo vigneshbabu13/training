@@ -5,7 +5,7 @@
 function greetVisitor() {
   const params = new URLSearchParams(window.location.search);
   const name = params.get("name");
-  document.getElementById("greeting").innerHTML = "Hello, " + name + "!";
+  document.getElementById("greeting").textContent = "Hello, " + name + "!";
 }
 
 // Return the total price of the visitor's orders.
